@@ -9,7 +9,7 @@
     "@strapi/plugin-i18n": "4.13.6",
     "better-sqlite3": "8.5.0"
   },
-  "name": "my-app-name",
+  "name": "@aldo_hirwa/strapi-plugin-documentation",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -20,9 +20,7 @@
     "strapi": "strapi"
   },
   "devDependencies": {},
-  "author": {
-    "name": "A Strapi developer"
-  },
+  "author": "A Strapi developer",
   "strapi": {
     "template": "blog"
   },
@@ -30,5 +28,17 @@
     "node": ">=16.0.0 <=20.x.x",
     "npm": ">=6.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hirwaaldo1/strapi-plugin-documentation.git"
+  },
+  "keywords": [
+    "strapi-plugin-documentation"
+  ],
+  "bugs": {
+    "url": "https://github.com/hirwaaldo1/strapi-plugin-documentation/issues"
+  },
+  "homepage": "https://github.com/hirwaaldo1/strapi-plugin-documentation#readme"
 }
